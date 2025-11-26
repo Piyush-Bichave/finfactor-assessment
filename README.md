@@ -15,7 +15,7 @@ This project includes a **Spring Boot backend** that integrates with the NASA AP
 - Responsive and clean UI built with Bootstrap
 
 ### 🔹 Backend
-- Java 17 + Spring Boot
+- Java 21 + Spring Boot
 - Integrates with **NASA APOD Public API**
 - REST APIs using `RestTemplate`
 - **Caffeine Cache** for performance
