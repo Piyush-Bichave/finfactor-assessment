@@ -1,0 +1,33 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, #0b0f1c, #000000);
+}
+
+img.apod-img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform .3s, box-shadow .3s;
+}
+
+img.apod-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(0, 204, 255, 0.5);
+}
+
+.card-custom {
+    border-radius: 15px;
+    background: #111827;
+    transition: .3s;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0, 204, 255, 0.5);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
